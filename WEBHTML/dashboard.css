@@ -149,3 +149,52 @@ color: #000;
 text-decoration: none;
 cursor: pointer;
 }
+
+.toggle{
+    display: inline-block;
+    }
+  
+   .toggle-input{
+    display: none;
+    }
+  
+    .slider{
+      position:relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+  
+      height: 2rem;
+      width: 4rem;
+      background-color: #737373;
+      border-radius: 10rem;
+  
+      }
+  
+     .slider::before{
+       position: absolute;
+          content: '';
+       display: inline-block;
+  
+       height: 1.7rem;
+       width: 1.7rem;
+       top : 3px;
+       left: 3px;
+  
+       background: #fff;
+       border-radius: 50%;
+  
+       transition: all 0.3s;
+      }
+  
+      .toggle-input:checked + .slider {
+          background: #80b918;
+          border:1px;
+  
+      }
+      .toggle-input:checked + .slider::before {
+          content: '';
+          left: 2rem;
+          background-color:#fff;
+      }

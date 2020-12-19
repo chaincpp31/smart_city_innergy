@@ -55,25 +55,25 @@ html,body,#root{
     
 }
 
-.box-container{
-   display: flex;
-   width: 60rem;
-   height:a;
-   background:#DDFFFC;
-   background-size: auto;
-   margin: 5rem 0;
-
-   position: relative;
-}
-
 .cam-container{
     display: flex;
     flex-direction: column;
     position: relative;
     margin-right: 5rem;
-
-
+    margin-top: 3rem;
 }
+
+
+.box-container{
+   display: flex;
+   width: 60rem;
+   height:auto;
+   background:#DDFFFC;
+   margin: 5rem 0;
+
+   position: relative;
+}
+
 
 
 .history{

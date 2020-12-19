@@ -1,0 +1,45 @@
+.table{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: #EEEEEE;
+
+    height: auto;
+    width: 50rem;
+    margin: 9rem;
+    flex-direction: column;
+}
+
+.head-table{
+    display: inline;
+    background-color: #79CAEE;
+    color:#fff;
+
+    height: 3.5rem;
+    width: 100%;
+}
+
+.lane{
+    display: flex;
+    flex-direction: row;
+}
+
+.lane-content{
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+      padding: 0 1rem;
+}
+
+.lane-title{
+    margin  : 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    }
+
+.detail{
+        margin  :1rem 6.5rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }

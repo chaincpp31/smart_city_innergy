@@ -59,8 +59,9 @@ html,body,#root{
    display: flex;
    width: 60rem;
    height:30rem;
-   background: rgba(221,255,252,70%);
-   margin:5rem 0;
+   background-image: url(./img/map.png);
+   background-size: auto;
+   margin: 5rem 0;
 }
 
 .cam-container{
@@ -68,21 +69,10 @@ html,body,#root{
     flex-direction: column;
     position: relative;
     margin-right: 5rem;
+
+
 }
 
-.content-border{
-    display: flex;
-    border: .5rem solid #001168;
-    margin: 1rem;
-    width: 58rem;
-}
-
-.content-lane{
-    
-    border-right: 6px solid #001168;
-    width: 13rem;
-    height: 27.5rem;
-}
 
 .history{
     background: #aaa;

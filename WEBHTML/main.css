@@ -1,8 +1,24 @@
+<<<<<<< HEAD
 body {
     background-image: url('./img/bg.jpg');
     width: 50%;
     height: 50%;
+=======
+ .navbar {
+    background-color: blueviolet;
+    font-size: large;
+}
+body {
+    background-image: url('./img/bg.jpg');
+    background-repeat : no-repeat;
+    background-size : cover ;
+    background-position : center ;
+    background-attachment :fixed ;
+    width: auto;
+    height: 100vh;
+>>>>>>> a893627aaea18357e894e87cb687b10cdc3c8f4b
     text-align: center;
+    font-family: sans-serif;
 
 }
 h1{
